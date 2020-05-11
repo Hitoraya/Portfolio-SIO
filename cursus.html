@@ -4,8 +4,13 @@
 		<title>Mon parcours</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" type="image/png" href="favicon.png" />
+		<link rel="icon" type="image/png" href="images/favicon.png" />
 		<link rel="stylesheet" href="assets/css/cursus.css" />
+		<style>
+			html {
+  				scroll-behavior: smooth;
+			}
+		</style>
 	</head>
 	<body>
 
@@ -14,9 +19,56 @@
 				<!-- Banner -->
 					<section id="intro" class="main">
 						<!--<span class="icon fa-diamond major"></span>-->
-						<h2>Mon parcours scolaire</h2>
-						<p>Le <b>BTS SIO</b> (Services Informatiques aux Organisations) comprend <b>deux options</b> : <br>
-						<b>SLAM</b> (Solutions Logicielles et Application Métier) et <b>SISR</b> (Solution Infrastructure Systèmes et Réseaux).</p>
+						<h2>Mon parcours</h2>
+						<div id="navbar2">
+							<a href="#formations">Formations</a>
+							<a href="#stages">Stages</a>
+						</div>
+						<h3 id="footer"><br id="formations">Formations</h3>
+						<section class="main items">
+							<article class="item">
+								<header>
+									<a href=""><img src="images/LA.jpg"></a>
+								</header>
+								<p>Titulaire d'un bac <b>STI2D</b> option <b>ITEC</b></p>
+							</article>
+							<article class="item">
+								<header>
+									<a href=""><img src="images/martelet.png"></a>
+								</header>
+								<p>Actuellement étudiant en <b>BTS SIO</b> option <b>SLAM</b></p>
+							</article>
+						</section>
+						<h3 id="footer"><br id="stages">Stages</h3>
+						<p>Au cours du BTS SIO, j'ai été amené à réaliser deux stages:</p>
+						<section class="main items">
+							<article class="item">
+								<header>
+									<a href=""><img src="images/clicsyndic.jpg"></a>
+								</header>
+								<p>J'ai réalisé mon premier stage dans l'entrepise <b>ClicSyndic</b>. Au cours de ce stage j'ai appris à intéragir avec un <b>serveur NAS</b> et à utilisé la <b>suite ICS</b> (notamment sa <b>G.E.D</b>), et j'ai réalisé des tâches diverses (archivage, maintenance informatique, ...).</p>
+								<p><b>Durée:</b> 5 semaines</p>
+								<ul class="actions">
+									<li><a href="rapport stage 01.pdf" class="button">Rapport de stage</a></li>
+								</ul>
+								<ul class="actions">
+									<li><a href="attestation stage 01.pdf" class="button">Attestation de stage</a></li>
+								</ul>
+							</article>
+							<article class="item">
+								<header>
+									<a href=""><img src="images/csnd.jpg"></a>
+								</header>
+								<p>Au cours de ce second stage réalisé au <b>CNSD</b>, ma tâche principale était de reprendre un script <b>PHP</b> obsolète. J'ai pour cela appris à mettre en place un <b>serveur LAMP</b>, à intéragir avec un <b>Active Directory</b> et un <b>ODBC</b>, ainsi qu'à utiliser <b>GitHub</b>. </p>
+								<p><b>Durée:</b> 6 semaines</p>
+								<ul class="actions">
+									<li><a href="rapport stage 02.pdf" class="button">Rapport de stage</a></li>
+								</ul>
+								<ul class="actions">
+									<li><a href="attestation stage 02.pdf" class="button">Attestation de stage</a></li>
+								</ul>
+							</article>
+						</section>
 					</section>
 
 				<!-- Footer -->

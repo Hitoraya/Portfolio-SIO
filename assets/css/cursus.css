@@ -1141,7 +1141,7 @@
 					left: 0;
 					width: 100%;
 					height: 100%;
-					background-color: rgba(0, 0, 0, 0.25);
+					background-color: rgba(0, 0, 0, 0);
 					background-image: url("images/overlay.png");
 				}
 
@@ -1593,9 +1593,17 @@
 
 	#gauche {
 		float: left;
-		width: 50%;
+		margin-left: 12%;
 	}
 
 	#droite {
 		margin-left: 50%; 
+	}
+
+/* NavBar2 */
+
+	#navbar2 a{
+		font-weight: bold;
+		text-decoration-line: underline;
+		padding: 15px;
 	}
